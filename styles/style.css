@@ -1,0 +1,165 @@
+.navbar {
+    list-style-type: none;
+    float: right;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin-right: 10px;
+    color: #222;
+}
+
+.navbar li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 18px;
+    color: #222;
+}
+
+.navbar li a {
+    color: #222;
+    opacity: .75;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+.username {
+    opacity: .55;
+}
+
+
+
+
+.footer {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    height: 40px;
+}
+
+.footer_right {
+    float: right;
+}
+
+.footer_left, .footer_right {
+    list-style-type: none;
+    color: #666;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.footer_left li, .footer_right li {
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.footer_left li a, .footer_right li a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+.top {
+    margin-top: 0px;
+}
+
+.logo {
+	background-image: url("../images/logo.png");
+    size: 272px 92px;
+    height: 92px;
+    width: 272px;
+    vertical-align: center;
+    margin-top: 180px;
+}
+
+.logo-subtext {
+	color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    position: relative;
+    top: 76px;
+    white-space: nowrap;
+    text-align: -webkit-left;
+}
+
+
+.search_field {
+    height: 34px;
+    width: 580px;
+    margin-top:15px;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.voice_search {
+	background-image: url("../images/voice.png");
+	background-size: 24px 24px;
+    display: inline-block;
+    height: 23px;
+    width: 20px;
+    vertical-align: middle;
+    margin-left: -40px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.gsearch {
+    height: 36px;
+    line-height: 27px;
+    display: inline-block;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.lucky {
+ height: 36px;
+    line-height: 27px;
+    display: inline-block;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.language {
+    font-family: arial,sans-serif;
+    font-size: small;
+    text-align: -webkit-center;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #222;
+}
